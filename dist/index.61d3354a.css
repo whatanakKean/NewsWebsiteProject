@@ -221,10 +221,6 @@ img, video {
   --tw-backdrop-sepia: ;
 }
 
-.rounded-lg {
-  border-radius: .5rem;
-}
-
 .rounded-xl {
   border-radius: .75rem;
 }
