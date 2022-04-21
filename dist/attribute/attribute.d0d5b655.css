@@ -1,0 +1,128 @@
+.logo {
+  width: 50px;
+}
+
+.navbar-brand {
+  margin-left: 40px;
+  font-size: 30px;
+}
+
+.search {
+  margin: auto auto auto 20px;
+}
+
+.list {
+  float: right;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.icon {
+  margin-right: -270px;
+}
+
+.image {
+  height: 300px;
+  opacity: .8;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN4rHBmDEEciHB8gA6UDcW8ZhkeDo0um24sQ&usqp=CAU");
+  margin-top: .5%;
+}
+
+.image h1 {
+  color: #000;
+  margin-left: 22%;
+  padding-top: 6%;
+  font-size: 100px;
+}
+
+.container {
+  width: 70%;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.container ul li {
+  width: 25%;
+  height: 200px;
+  margin-left: 5%;
+  display: inline-block;
+}
+
+.container ul li p {
+  width: 60%;
+}
+
+.icream {
+  width: 60%;
+  margin: auto;
+}
+
+.icream p {
+  font-size: 23px;
+}
+
+.footer {
+  margin-top: 10px;
+}
+
+.footer a {
+  color: #000;
+  font-size: 30px;
+}
+
+.logo2 {
+  float: left;
+}
+
+.social {
+  float: right;
+}
+
+.social ul li {
+  display: inline;
+}
+
+.social ul li h3 {
+  font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  .image h1 {
+    padding: 20% auto auto;
+    font-size: 50px;
+  }
+
+  .container ul {
+    margin-left: 20%;
+  }
+
+  .container ul li {
+    display: contents;
+  }
+
+  .icream img {
+    width: 100%;
+  }
+
+  .logo2 {
+    margin-left: 4px;
+  }
+
+  .social {
+    float: right;
+    width: 60%;
+  }
+
+  .social ul {
+    margin-right: 0;
+  }
+
+  .social ul li h3 {
+    margin-right: auto;
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=attribute.d0d5b655.css.map */
