@@ -1,0 +1,68 @@
+.logo{
+    width: 50px;
+}
+.navbar-brand{
+   font-size: 30px;
+   margin-left: 40px;
+}
+.search{
+  margin: auto;
+  margin-left: 20px;
+} 
+.body{
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+.body h5{
+    font-weight: bold;
+}
+.content p{
+    width: 70%;
+}
+.content img{
+    width: 240px;
+}
+.footer{
+    margin-top: 10px;
+    width: 70%;
+    margin: auto;
+}
+.footer a{
+    color: black;
+    font-size: 30px;
+}
+.logo2{
+   float: left;
+    margin-left: -100px;
+}
+.social{
+   float: right;
+}
+.social ul li{
+    display: inline;  
+}
+.social ul li h3{
+    font-size: 20px;
+}
+
+@media (min-width:900px){
+    .content p{
+        width: 44%;
+    }
+    .content img{
+        width: 44%;
+    }
+    .content ul li{
+        display: inline-block;
+        width: 44%;
+        height: 200px;
+        margin-left: 5%;
+    }
+}
