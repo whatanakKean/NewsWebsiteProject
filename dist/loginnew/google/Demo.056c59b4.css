@@ -1,0 +1,125 @@
+body {
+  height: 700px;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.base {
+  width: 100%;
+  color: gray;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#logo {
+  height: 38px;
+  width: 500px;
+  margin-top: 20px;
+}
+
+#info2 {
+  width: 500px;
+  color: #555557;
+  margin-top: 17px;
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#form1 {
+  width: 355px;
+  height: 280px;
+  background: #f7f7f7;
+  margin-top: 17px;
+  padding-top: 40px;
+  box-shadow: 0 1px 1px 1px #c6c1c1;
+}
+
+#form-img {
+  width: 99px;
+  height: 99px;
+}
+
+#mailbox {
+  width: 270px;
+  height: 42px;
+  background: #fff;
+  border: 0 solid #00f;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#button2 {
+  width: 270px;
+  height: 35px;
+  color: #fff;
+  cursor: pointer;
+  background: #498af2;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 10px;
+  font-family: verdana;
+  font-size: 14px;
+}
+
+#info3 {
+  float: right;
+  color: #498af2;
+  margin-top: 10px;
+  padding-right: 42px;
+  font-family: Open Sans, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#info3 a {
+  color: #498af2;
+  text-decoration: none;
+}
+
+#info4 {
+  margin-top: 25px;
+  font-family: Open Sans, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#info4 a {
+  color: #498af2;
+  text-decoration: none;
+}
+
+#info5 {
+  color: #87898b;
+  margin-top: 30px;
+  font-family: Open Sans, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#logo2 {
+  height: 27px;
+  width: 243px;
+  margin-top: 10px;
+}
+
+#bottom {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#bottom ul {
+  list-style: none;
+}
+
+#bottom ul li {
+  float: left;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=Demo.056c59b4.css.map */

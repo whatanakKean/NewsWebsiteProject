@@ -1,0 +1,58 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.content {
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+.heading {
+  margin-top: 30px;
+  margin-left: 170px;
+  font-size: 23px;
+}
+
+.main {
+  margin-left: 20px;
+}
+
+.form input {
+  width: 500px;
+  border: none;
+  border-bottom: 1px solid #1da1f2;
+  outline-style: none;
+  margin-top: 10px;
+  padding: 20px 20px 30px;
+}
+
+.btn button {
+  width: 530px;
+  color: #fff;
+  opacity: .5;
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 30px;
+  outline-style: none;
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.forgot {
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+p a {
+  color: #1da1f2;
+}
+
+.signup {
+  margin-top: -19px;
+  margin-left: 280px;
+}
+
+/*# sourceMappingURL=twitter.d05ac0ad.css.map */
