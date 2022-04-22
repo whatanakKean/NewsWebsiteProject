@@ -1,3 +1,105 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.logo{
+    width: 50px;
+}
+.navbar-brand{
+   font-size: 30px;
+   margin-left: 40px;
+}
+.search{
+  margin: auto;
+  margin-left: 20px;
+} 
+.list{
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+}  
+.icon{
+    margin-right: -270px;
+}
+.image{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN4rHBmDEEciHB8gA6UDcW8ZhkeDo0um24sQ&usqp=CAU);
+    height: 300px;
+    opacity: 0.8;
+    margin-top: 0.5%;
+}
+.image h1{
+    padding-top: 6%;
+    font-size: 100px;
+}
+.Container{
+    width: 70%;
+}
+.Container ul{
+   list-style: none;
+}
+.Container ul li{
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    margin-left: 5%;
+}
+.Container ul li p{
+    width: 60%;
+}
+.icream{
+    margin: auto;
+    width: 60%;
+}
+.icream p{
+    font-size: 23px;
+}
+.footer{
+    margin-top: 10px;
+}
+.footer a{
+    color: black;
+    font-size: 30px;
+}
+.logo2{
+    float: left;
+}
+.social{
+   float: right;
+}
+.social ul li{
+    display: inline;  
+}
+.social ul li h3{
+    font-size: 20px;
+}
+@media (max-width:1000px){
+    .image h1{
+        font-size: 50px;
+       padding: auto;
+       padding-top: 20%;
+    }
+    .Container ul{
+       margin-left: 20%;
+    }
+    .Container ul li{
+        display: contents;
+    }
+    .icream img{
+        width: 100%;
+    }
+    .logo2{
+        margin-left: 4px;
+    }
+    .social{
+        float: right;
+        width: 60%;
+    }
+    .social ul {
+       margin-right: 0px;
+        
+    }
+    .social ul li h3{
+        font-size: 15px;
+        margin-right: auto;
+    }
+}
