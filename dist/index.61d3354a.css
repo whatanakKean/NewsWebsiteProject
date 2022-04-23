@@ -255,10 +255,6 @@ img, video {
   }
 }
 
-.bottom-full {
-  bottom: 100%;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -769,14 +765,14 @@ img, video {
   color: rgb(254 252 232 / var(--tw-text-opacity) );
 }
 
-.hover\:text-blue-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(96 165 250 / var(--tw-text-opacity) );
-}
-
 .hover\:text-red-300:hover {
   --tw-text-opacity: 1;
   color: rgb(252 165 165 / var(--tw-text-opacity) );
+}
+
+.hover\:text-blue-400:hover {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity) );
 }
 
 .hover\:underline:hover {
