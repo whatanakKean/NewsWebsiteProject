@@ -22,14 +22,10 @@
     margin-right: -270px;
 }
 .image{
-    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN4rHBmDEEciHB8gA6UDcW8ZhkeDo0um24sQ&usqp=CAU);
+    background-image:url("https://cdn.cnn.com/cnnnext/dam/assets/220415034354-biden-modi-virtual-meet-041122-exlarge-169.jpg");
     height: 300px;
     opacity: 0.8;
     margin-top: 0.5%;
-}
-.image h1{
-    padding-top: 6%;
-    font-size: 100px;
 }
 .Container{
     width: 70%;

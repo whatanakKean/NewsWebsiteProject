@@ -255,6 +255,10 @@ img, video {
   }
 }
 
+.bottom-full {
+  bottom: 100%;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -270,6 +274,11 @@ img, video {
   margin-right: 1rem;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mx-2 {
   margin-left: .5rem;
   margin-right: .5rem;
@@ -278,11 +287,6 @@ img, video {
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-}
-
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
 }
 
 .my-8 {
@@ -469,14 +473,14 @@ img, video {
   padding-bottom: .5rem;
 }
 
-.py-1 {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.py-1 {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
 }
 
 .px-10 {
@@ -552,6 +556,11 @@ img, video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity) );
+}
+
+.text-emerald-50 {
+  --tw-text-opacity: 1;
+  color: rgb(236 253 245 / var(--tw-text-opacity) );
 }
 
 .text-red-500 {
@@ -630,13 +639,8 @@ img, video {
 .image {
   height: 300px;
   opacity: .8;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN4rHBmDEEciHB8gA6UDcW8ZhkeDo0um24sQ&usqp=CAU");
+  background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/220415034354-biden-modi-virtual-meet-041122-exlarge-169.jpg");
   margin-top: .5%;
-}
-
-.image h1 {
-  padding-top: 6%;
-  font-size: 100px;
 }
 
 .Container {
@@ -768,6 +772,11 @@ img, video {
 .hover\:text-blue-400:hover {
   --tw-text-opacity: 1;
   color: rgb(96 165 250 / var(--tw-text-opacity) );
+}
+
+.hover\:text-red-300:hover {
+  --tw-text-opacity: 1;
+  color: rgb(252 165 165 / var(--tw-text-opacity) );
 }
 
 .hover\:underline:hover {
